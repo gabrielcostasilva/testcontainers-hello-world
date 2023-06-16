@@ -1,5 +1,5 @@
 # TESTCONTAINERS - HELLO WORLD
-This getting started with Testcontainers shows dependencies, annotations and overall use of Testcontainers. [_Testcontainers_](https://testcontainers.com) is a framework that uses Docker containers to run tests against dependencies, such as databases.
+This getting started with Testcontainers shows dependencies, annotations and overall usage of Testcontainers. [_Testcontainers_](https://testcontainers.com) is a framework that uses Docker containers to run tests against dependencies, such as databases.
 
 The main benefit is that you no longer rely on _Mocks_, but real implementations.
 
@@ -38,10 +38,10 @@ public class AppTest {
 }
 ```
 
-1. Identifies this test as a Testcontainers
+1. Identifies this test as a Testcontainers type
 2. Links JUnit and the field
 3. Sets a particular container image and port
-4. Runs the test by submitting a POST request to the address and port set by the container. The should pass.
+4. Runs the test by submitting a POST request to the address and port set by the container. The test should pass.
 
 ## Dependencies
 Testcontainers require two dependencies: `org.testcontainers.junit-jupiter` and `org.testcontainers.testcontainers`. However, this project also relies on `org.projectlombok.lombok` for creating gets/sets for the POJO, and `com.konghq.unirest-java` - which is a REST client.
