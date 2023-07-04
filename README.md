@@ -45,3 +45,6 @@ public class AppTest {
 
 ## Dependencies
 Testcontainers require two dependencies: `org.testcontainers.junit-jupiter` and `org.testcontainers.testcontainers`. However, this project also relies on `org.projectlombok.lombok` for creating gets/sets for the POJO, and `com.konghq.unirest-java` - which is a REST client.
+
+## Further Reference
+- [Testcontainers – From Zero to Hero](https://www.youtube.com/live/v3eQCIWLYOw?feature=share) is a concise introduction to benefits and usage of Testcontainers.
